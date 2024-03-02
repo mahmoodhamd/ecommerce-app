@@ -15,6 +15,7 @@ return new class extends Migration
             $table->increments('id');
             $table->string('name');
             $table->double('price');
+
             $table->unsignedInteger('quantity')->default(0);
             $table->string('description');
             $table->string('image');

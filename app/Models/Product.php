@@ -11,7 +11,7 @@ class Product extends Model
     use SoftDeletes;
     use HasFactory;
     protected $fillable=[
-        'name', 'price', 'quantity', 'description','image'
+        'name', 'price', 'quantity', 'description','image',
     ];
   public function orders(){
     $this->hasMany(Order::class);

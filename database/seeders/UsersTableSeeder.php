@@ -19,6 +19,7 @@ class UsersTableSeeder extends Seeder
         $user->is_admin=true;
         $user->save();
 
-       
+
+
     }
 }
