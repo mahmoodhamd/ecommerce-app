@@ -12,7 +12,8 @@ use Illuminate\Database\Seeder;
             $products = [
                 [
                     'name' => "Red & Navy Checked Slim Formal Shirt",
-                    'description' => 'Red and navy checked formal shirt, has a button-down collar, a full button placket, long sleeves, a curved hemline.',
+                    'description' => 'Red and hot checked formal shirt, has a button-down collar, a full button placket, long sleeves, a curved hemline.',
+
                     'quantity' => 21,
                     'price' => 200.10,
 

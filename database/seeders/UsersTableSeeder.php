@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use App\Models\User;
 use Illuminate\Database\Seeder;
+use Illuminate\Database\QueryException;
 
 class UsersTableSeeder extends Seeder
 {
@@ -12,14 +13,14 @@ class UsersTableSeeder extends Seeder
      */
     public function run(): void
     {
-        $user= new User;
-        $user->name='SuperAdmin';
-        $user->email="Superadmin@gmail.com";
-        $user->password=bcrypt('Superadmin');
-        $user->is_admin=true;
-        $user->save();
 
-
+            $user = new User;
+            $user->name = 'adminsuper';
+            $user->email = "adminsuper@gmail.com";
+            $user->password = bcrypt('Superadmin');
+            $user->is_admin = true;
+            $user->save();
+        }
 
     }
-}
+
